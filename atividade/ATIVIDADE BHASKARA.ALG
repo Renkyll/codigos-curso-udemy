@@ -15,13 +15,15 @@ Inicio
 
    D <- Exp(b,2)-4*a*c
 
-   x1 <- (-b + RaizQ(D)) / (2*a)
-   x2 <- (-b - RaizQ(D)) / (2*a)
+   se (a = 0) ou (D < 0) entao
+      escreval("Esta equacao nao possui raizes reais ")
+   senao
+      x1 <- (-b + RaizQ(D)) / (2*a)
+      x2 <- (-b - RaizQ(D)) / (2*a)
 
-   escreval("X1 =", x1:8:4)
-   escreval("X2 =", x2:8:4)
-
-
+      escreval("X1 =", x1:8:4)
+      escreval("X2 =", x2:8:4)
+   fimse
 
 
 Fimalgoritmo
